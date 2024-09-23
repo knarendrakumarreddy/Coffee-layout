@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .main{
+            height:100vh;
+            width:100vw;
+            background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+            position:relative;
+            display:flex;
+            align-items:center;
+        }
+        .sub{
+            height:90%;
+            width:30%;
+            background-color:burlywood;
+            margin:auto;
+            display:flex;
+            flex-direction:column;
+            gap:10px;
+        }
+        .item{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+        }
+        .hr{
+            width:90%;
+            border:2px solid brown;
+            align-items:center;
+        }
+        .item2{
+            display:flex;
+            justify-content:space-between;
+            margin-left:20px;
+            margin-right:30px;
+            margin-top:20px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+            <div class="item">
+                <h2>
+                    CAMPER CAFE
+    
+                </h2>
+                <P>EST.2020</P>
+            </div>
+            <hr style="border: 2px solid brown;">
+            <div class="item">
+                <h2> coffee</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="">
+    
+    
+            </div>
+            <div class="item2">
+                <div class="menu">
+                    <div>French Vanilla</div>
+                    <div>Caramel Macchiato</div>
+                    <div>Pumpkin Spice</div>
+                    <div>Hazalnut</div>
+                    <div>Mocha</div>
+                </div>
+                <div class="menu">
+                    <div>3.00</div>
+                    <div>3.75</div>
+                    <div>3.50</div>
+                    <div>4.00</div>
+                    <div>4.50</div>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Desert</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="">
+            </div>
+            <div class="item2">
+                <div class="menu">
+                    <div>Donut</div>
+                    <div>Cherry</div>
+                    <div>Chessecake</div>
+                    <div>Cinnamon</div>
+                </div>
+                <div class="menu">
+                    <div>1.50</div>
+                    <div>2.75</div>
+                    <div>3.00</div>
+                    <div>2.50</div>
+                </div>
+            </div>
+            <hr>
+            <div class="item" style="margin-top:10px;">
+                <p style="text-decoration:underline;">visit our website</p>
+                <p>123 Free Code Camp Drive</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
